@@ -1,0 +1,37 @@
+<!--
+ * @Author: ohmyga
+ * @Date: 2022-01-03 20:54:22
+ * @LastEditTime: 2022-01-05 02:27:02
+-->
+<!DOCTYPE html>
+<html lang="zh">
+<!--
++-----------------------------------------------------
+<%= htmlWebpackPlugin.options.copyright %>
++-----------------------------------------------------
+| Author: ohmyga
+| GitHub: https://github.com/bakaomg
+| Build Date: <%= htmlWebpackPlugin.options.buildDate %>
++-----------------------------------------------------
+-->
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <%= htmlWebpackPlugin.options.link %>
+  <link rel="shortcut icon" href="<%= webpackConfig.output.publicPath %>favicon.ico">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_3118239_85md6fusxja.css?spm=a313x.7781069.1998910419.78&file=font_3118239_85md6fusxja.css"/>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="CSDATA" o-json='{"siteName": "O&#39;s CDN", "code": 200, "info": "CDN Currently Working!"}'></div>
+  <div id="CDNSITE"></div>
+  <!-- Made with love by ohmyga -->
+</body>
+
+</html>
